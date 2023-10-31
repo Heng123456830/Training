@@ -1,0 +1,38 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 Oct 2023, 4:40:13 pm
+    Author     : MATEBOOK D15
+*/
+
+.form-image {
+    border-style: ridge;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.uploaded-images {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uploaded-image-container {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.uploaded-image {
+
+    height:500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.delete-button {
+    cursor: pointer;
+    color: red;
+}

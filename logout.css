@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 Oct 2023, 12:57:38 am
+    Author     : MATEBOOK D15
+*/
+
+.item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 25px;
+    padding: 15px;
+    width:70%;
+    margin-left:50px;
+
+
+}
+.grid-item .price-info {
+    display: flex;
+    align-items: center; /* Align elements vertically in the same line */
+    gap: 5px; /* Adjust the spacing between elements */
+
+}
+
+.grid-item .price-info .action-button {
+    border-style: ridge;
+    border-radius: 10px;
+    padding: 5px 10px; /* Adjust padding as needed */
+
+}
+
+.grid-item .price-info .action-button:hover {
+    background-color: #ccc; /* Change the background color on hover if desired */
+}
+
+.grid-item .image-info {
+    margin-left: 280px; /* Adjust margin for spacing */
+    border-style: ridge;
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px 10px;
+    position:relative;
+    bottom:20px;
+   
+
+
+}
+
+
+.grid-item .offers-info {
+    margin-left: 20px;
+    border-style: ridge;
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px 10px;
+    position:relative;
+    bottom:9px;
+    
+}
+
+
+
+.grid-item{
+    padding:10px;
+    height:100%;
+    border-style:ridge;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+h2,input[type="checkbox"]{
+    margin-left:70px;
+}
+.grid-item .image-info:hover ,.offers-info:hover{
+     background-color: #ccc;
+}

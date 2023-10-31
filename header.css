@@ -1,0 +1,41 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 Oct 2023, 4:16:17 pm
+    Author     : MATEBOOK D15
+*/
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between; /* Create space between the elements */
+    align-items:center;
+    padding-left:150px;
+
+
+}
+
+div {
+    margin: 0; /* Remove default margin for <h1> elements */
+
+}
+
+nav {
+    margin-left: 20px; /* Add margin to the left of the <nav> element */
+}
+
+nav a {
+    margin-left: 20px; /* Add margin to the left of the <a> elements in the navigation */
+    text-decoration: none;
+
+}
+
+nav a:first-child {
+    margin-left: 0; /* Remove margin from the first <a> element in the navigation */
+}
+.purple-header{
+    color: blue;
+}
+
+

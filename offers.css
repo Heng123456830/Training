@@ -1,0 +1,33 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 Oct 2023, 2:04:02 am
+    Author     : MATEBOOK D15
+*/
+
+.grid-item{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width:30%;
+
+}
+
+.container {
+    display: flex;
+    gap:30px;
+    padding: 10px; /* Add some spacing around the items */
+}
+.offers {
+    border: 1px solid #ccc; /* Add a border around the offers div */
+    padding: 50px; /* Add some spacing inside the offers div */
+    margin-left:15%;
+    width:30%;
+
+}
+a{
+    margin-left:18%;
+    text-decoration: none;
+    color:black;
+}

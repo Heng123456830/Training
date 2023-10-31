@@ -1,0 +1,113 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 4 Oct 2023, 3:14:45 pm
+    Author     : MATEBOOK D15
+*/
+
+/* section container */
+.section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Two columns in the grid */
+    gap: 15px; /* Spacing between grid items */
+    background-color: white;
+    padding: 15px;
+    width:80%;
+    margin-left:9%;
+
+    text-decoration: none;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: ridge;
+    padding:15px;
+    font-size: 15px;
+    text-align: left;
+
+
+
+
+}
+
+
+h3 {
+    margin: 0;
+    padding: 0;
+    display:inline;
+
+}
+.price_smaller{
+    font-size: 0.8em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+
+.cell-price{
+    display: table-cell;
+    padding: 5px;
+    border-style:ridge;
+
+}
+
+/*listing*/
+table {
+
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    display:inline;
+
+
+}
+
+
+
+
+
+#beds{
+    font-size: 15px;
+    height:32px;
+    padding:8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+
+}
+#baths{
+
+    font-size: 15px;
+    height:32px;
+    padding:8px;
+
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+
+
+.grid-item a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color to black */
+    border: 2px solid #000; /* Add border with black color */
+    padding: 10px; /* Add padding to maintain the layout */
+    display: block; /* Make the link a block-level element to apply styles */
+}
+
+
+
+.success {
+    background-color: green;
+    border: 1px solid green;
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Center the text */
+    color: white; /* Text color */
+    margin-top: 20px; /* Adjust this value for vertical spacing under the header */
+}

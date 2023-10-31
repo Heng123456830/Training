@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 Oct 2023, 3:28:44 pm
+    Author     : MATEBOOK D15
+*/
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+input[type="password"] ,input[type="email"] {
+    width: 100%; /* Make the input fields 100% wide within the form */
+    padding: 10px; /* Increase padding for better spacing */
+    margin-bottom: 10px; /* Increase the margin between input fields */
+    border-radius:10px;
+    height:8px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    width: 106%; /* Make the button 100% wide within the form */
+    padding: 6px;
+    border-radius:10px;
+
+}

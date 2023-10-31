@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 Oct 2023, 6:03:28 pm
+    Author     : MATEBOOK D15
+*/
+
+form {
+
+
+    min-height: 100vh;
+
+}
+
+.horizontal-form {
+    margin-left:10%;
+    margin-top:6%;
+
+}
+
+.form-row {
+    display: flex;
+    gap: 8%;
+}
+
+.form-group {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px; /* Increase the padding for larger input fields */
+    border: 2px solid #000; /* Add border */
+    border-radius: 10px; /* Apply rounded border */
+    padding-left:90px;
+}
+
+button {
+    margin-top: 20px; /* Add space between the form and the button */
+}
